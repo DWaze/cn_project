@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'dsc_s2'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'be.adaxisoft:Bencode:2.0.0'
+    compile 'com.dampcake:bencode:1.2.1'
+}
